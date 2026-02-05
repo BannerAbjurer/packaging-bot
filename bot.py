@@ -537,8 +537,7 @@ async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE):
     )
 
 def main() -> None:
-    # ⚠️ ВНИМАНИЕ: Это фиктивный токен для примера!
-    # Замените на свой реальный токен при деплое
+    # ⚠️ ЗАМЕНИТЕ НА ВАШ РЕАЛЬНЫЙ ТОКЕН
     BOT_TOKEN = "8504882605:AAH4QFAEI6SUvaWiPxSHZXwwPYQ-PNdTHak"
     
     application = ApplicationBuilder().token(BOT_TOKEN).build()
